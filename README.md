@@ -85,9 +85,6 @@ graph TD
 
 ## 🚀 Technical Deep Dive
 
-> 💡 **Want to know how the math works?** 
-> For a deep technical dive into exactly how the AI models, mathematical heuristics, and LangGraph Agent architecture operate, read the full **[Technical Architecture Guide](./technical_architecture.md)**.
-
 * **Biometric Rule-Based Emotion Engine:** Instead of heavy server-side AI, the backend uses geometric heuristics (Mouth Aspect Ratio for yawning, Eyebrow Furrowing for tension) to deduce micro-expressions effortlessly at 30fps.
 * **LangGraph Agentic Layer:** A ReAct agent powered by Groq's insanely fast `Llama 3.1` model sits on the Admin Dashboard. It has autonomous tool-access to query the TimescaleDB database directly to answer natural language questions about student engagement.
 
@@ -101,7 +98,7 @@ graph TD
 * **AI:** WebAssembly (WASM), MediaPipe Tasks Vision
 
 ### ⚙️ Backend (Telemetry Server)
-* **Core:** Python 3.13, FastAPI, Uvicorn
+* **Core:** Python 3.13, FastAPI, Uvicorn, WebSocket
 * **Logic:** NumPy, PyJWT
 * **AI Agents:** LangChain, LangGraph, ChatGroq
 
