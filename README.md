@@ -1,7 +1,8 @@
 **🚀 Deployed Application on AWS:** [https://myfocusai.duckdns.org](https://myfocusai.duckdns.org)
 
 <div align="center">
-  
+
+https://github.com/user-attachments/assets/054df42b-38f9-43c3-b025-74d967b0edc3
 # 🧠 FocusAI: Cognitive Telemetry Engine
 
 **An enterprise-grade Agentic AI platform for real-time extraction of human cognitive states.**
